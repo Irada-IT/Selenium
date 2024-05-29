@@ -1,0 +1,9 @@
+address: https://test-stand.gb.ru/posts/create
+sleep_time: 1
+browser: chrome
+wait: 3
+username: testtest1
+password: c23b2ed66e
+title: Post1
+description: Description
+content: Content
