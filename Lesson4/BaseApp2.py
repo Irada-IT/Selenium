@@ -37,3 +37,11 @@ class BasePage:
             return alert.text
         except:
             logging.exception("Exception with alert")
+    def get_check_text(self, locator, time=5):
+        try:
+           element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+                                        message=f"Can't find element by locator {locator}")
+        except:
+            logging.exception("Find element exception")
+            element = None
+        return element

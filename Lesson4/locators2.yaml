@@ -1,0 +1,2 @@
+xpath:
+  LOCATOR_POST_EXISTENCE: //*[@id="app"]/main/div/div[3]/div[1]/a[2]/div
